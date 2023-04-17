@@ -2,6 +2,8 @@ import React, { useReducer } from 'react'
 
 const initialstate = 0; 
 const reducer = (currentstate, action)=> {
+
+  // currentstate === state // updating the initial state 
   console.log(currentstate)
   switch(action){
     case "Increment" :
